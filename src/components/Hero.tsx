@@ -63,13 +63,6 @@ export default function Hero({ onCTA }: HeroProps) {
 
           {/* Call to Action Button */}
           <div className="pt-4 flex flex-col items-center gap-3">
-            <button
-              onClick={onCTA}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-600 via-amber-500 to-orange-600 hover:brightness-110 active:scale-[0.98] text-white font-black px-10 py-4 rounded-2xl text-sm sm:text-base uppercase tracking-widest transition-all shadow-xl shadow-orange-500/20 cursor-pointer border border-orange-400/20 text-center"
-            >
-              <Download className="h-5 w-5 stroke-[2.5px]" />
-              <span>QUIERO ACCEDER AHORA</span>
-            </button>
             <div className="flex items-center gap-2 text-xs text-slate-450 font-mono">
               <ShieldCheck className="h-4 w-4 text-emerald-400" />
               <span>Garantía de Satisfacción de 7 días</span>
