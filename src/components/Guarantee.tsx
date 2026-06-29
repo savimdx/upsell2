@@ -36,7 +36,7 @@ export default function Guarantee() {
             </h2>
             
             <p className="text-sm text-slate-650 leading-relaxed font-normal">
-              Queremos que experimentes la biblioteca de fútbol sala con total tranquilidad. Adquiere el pack hoy mismo y utilízalo directamente en la cancha por un plazo de <span className="text-orange-600 font-extrabold">7 días enteros</span>.
+              Queremos que experimentes la biblioteca de fútbol con total tranquilidad. Adquiere el pack hoy mismo y utilízalo directamente en la cancha por un plazo de <span className="text-orange-600 font-extrabold">7 días enteros</span>.
             </p>
             
             <p className="text-sm text-slate-500 leading-relaxed font-normal">

@@ -27,8 +27,8 @@ export default function Hero({ onCTA }: HeroProps) {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none text-white uppercase font-sans max-w-4xl mx-auto">
             24 Plantillas Profesionales de <br className="hidden sm:inline" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-400 to-orange-500">
-              Entrenamiento
-            </span> de Fútbol Sala
+              Entrenamientos de Fútbol
+            </span>
           </h1>
 
           <p className="text-base sm:text-lg text-slate-300 font-medium leading-relaxed max-w-2xl mx-auto">
@@ -38,8 +38,8 @@ export default function Hero({ onCTA }: HeroProps) {
           {/* Product Image Presentation */}
           <div className="w-full max-w-xl mx-auto my-2 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl transition-all duration-500 hover:scale-[1.01] hover:border-orange-500/30">
             <img 
-              src="https://i.ibb.co/DfddrNVL/Chat-GPT-Image-26-de-jun-de-2026-11-17-15.png" 
-              alt="24 Plantillas de Entrenamiento de Fútbol Sala" 
+              src="https://i.ibb.co/cc4Tjp04/Chat-GPT-Image-26-de-jun-de-2026-11-17-15.png" 
+              alt="24 Plantillas de Entrenamiento de Fútbol" 
               className="w-full h-auto object-cover"
               referrerPolicy="no-referrer"
             />

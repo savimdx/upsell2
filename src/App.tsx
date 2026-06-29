@@ -155,7 +155,7 @@ export default function App() {
                 Completa tu Pedido
               </h2>
               <p className="text-xs text-slate-400">
-                Estás a un paso de acceder a las 24 plantillas profesionales de fútbol sala.
+                Estás a un paso de acceder a las 24 plantillas profesionales de fútbol.
               </p>
             </div>
 
@@ -393,7 +393,7 @@ export default function App() {
                 <li className="flex justify-between items-center text-slate-200">
                   <div className="flex items-center gap-2">
                     <span className="text-emerald-500">✓</span>
-                    <span>24 Plantillas de Entrenamiento de Fútbol Sala (Pack Completo)</span>
+                    <span>24 Plantillas de Entrenamiento de Fútbol (Pack Completo)</span>
                   </div>
                   <span className="font-bold font-mono text-slate-400">$4.90 USD</span>
                 </li>
@@ -415,7 +415,7 @@ export default function App() {
               
               <div className="flex flex-col gap-3 justify-center max-w-sm mx-auto">
                 <button 
-                  onClick={() => alert("¡Descarga Simulada de Éxito!\nEl PDF con las '24 Plantillas de Entrenamiento de Fútbol Sala' se ha descargado correctamente en tu dispositivo.")}
+                  onClick={() => alert("¡Descarga Simulada de Éxito!\nEl PDF con las '24 Plantillas de Entrenamiento de Fútbol' se ha descargado correctamente en tu dispositivo.")}
                   className="w-full px-6 py-3.5 rounded-xl bg-gradient-to-r from-orange-600 via-amber-500 to-orange-600 hover:brightness-110 text-white font-black text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg animate-pulse"
                 >
                   <Download className="h-4.5 w-4.5 stroke-[2.5]" />

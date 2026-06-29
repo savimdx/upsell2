@@ -12,49 +12,49 @@ const SALE_NOTIFICATIONS: SaleItem[] = [
   {
     name: "Carlos M.",
     location: "Madrid, España",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 2 minutos"
   },
   {
     name: "Diego R.",
     location: "Santiago, Chile",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 5 minutos"
   },
   {
     name: "Luis E.",
     location: "Buenos Aires, Argentina",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 10 minutos"
   },
   {
     name: "Esteban G.",
     location: "Bogotá, Colombia",
-    product: "Programa Completo (Fútbol Sala)",
-    time: "hace 1 minuto"
+    product: "Programa Completo (Fútbol)",
+    time: "hace 1 minute"
   },
   {
     name: "Mariano S.",
     location: "Montevideo, Uruguay",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 4 minutos"
   },
   {
     name: "Javier F.",
     location: "Ciudad de México, México",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 12 minutos"
   },
   {
     name: "Alejandro T.",
     location: "Medellín, Colombia",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 8 minutos"
   },
   {
     name: "Mateo P.",
     location: "Valencia, España",
-    product: "Programa Completo (Fútbol Sala)",
+    product: "Programa Completo (Fútbol)",
     time: "hace 3 minutos"
   }
 ];

@@ -1,6 +1,6 @@
 {
-  "name": "24 Plantillas de Entrenamiento de Fútbol Sala",
-  "description": "Planifica sesiones de entrenamiento de fútbol sala en minutos con 24 plantillas profesionales listas para usar.",
+  "name": "24 Plantillas de Entrenamiento de Fútbol",
+  "description": "Planifica sesiones de entrenamiento de fútbol en minutos con 24 plantillas profesionales listas para usar.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

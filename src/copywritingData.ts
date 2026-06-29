@@ -2,7 +2,7 @@ import { Bonus, Plan, ExampleExercise, Testimonial, FAQItem } from './types';
 
 export const HERO_COPY = {
   superTitle: "🔥 ESTÁS A UN CLIC DE REVOLUCIONAR TUS SESIONES",
-  mainTitle: "+1000 Sesiones de Entrenamiento de Fútbol Sala Listas para Aplicar",
+  mainTitle: "+1000 Sesiones de Entrenamiento de Fútbol Listas para Aplicar",
   subTitle: "Accede de inmediato a la biblioteca digital más grande y práctica del mercado. Diseña entrenamientos profesionales en 5 minutos, mejora la táctica de tus jugadores y sé el entrenador líder que tu club necesita.",
   ctaText: "QUIERO ACCEDER AHORA",
   urgencyLabel: "⚡ Oferta única de lanzamiento disponible por tiempo limitado",
@@ -101,7 +101,7 @@ export const WHY_CHOOSE_COPY = {
 export const BONUSES_COPY: Bonus[] = [
   {
     id: "bonus-1",
-    title: "250 Actividades Sociomotrices de Fútbol Sala",
+    title: "250 Actividades Sociomotrices de Fútbol",
     description: "Juegos lúdicos orientados a potenciar el compañerismo, la diversión y la toma de decisiones subconsciente en categorías formativas.",
     value: 27,
     emoji: "🎁",
@@ -109,7 +109,7 @@ export const BONUSES_COPY: Bonus[] = [
   },
   {
     id: "bonus-2",
-    title: "100 Ejercicios de Velocidad y Resistencia para Fútbol Sala",
+    title: "100 Ejercicios de Velocidad y Resistencia para Fútbol",
     description: "Métodos de preparación física específica para futsal. Ejercicios integrados con balón para acelerar la ganancia de potencia y velocidad explosiva.",
     value: 35,
     emoji: "🎁",
@@ -117,7 +117,7 @@ export const BONUSES_COPY: Bonus[] = [
   },
   {
     id: "bonus-3",
-    title: "51 Ejercicios de Entrenamiento de Fintas en Fútbol Sala",
+    title: "51 Ejercicios de Entrenamiento de Fintas en Fútbol",
     description: "Guía paso a paso para enseñar el desborde individual, el amago físico y el manejo del espacio en el 1 vs 1.",
     value: 19,
     emoji: "🎁",
@@ -125,7 +125,7 @@ export const BONUSES_COPY: Bonus[] = [
   },
   {
     id: "bonus-4",
-    title: "Manual de Entrenamiento de Fútbol Sala",
+    title: "Manual de Entrenamiento de Fútbol",
     description: "La biblia del coach: fundamentos teóricos estructurados explicados de forma práctica para potenciar tu liderazgo y dirección técnica.",
     value: 45,
     emoji: "🎁",
@@ -147,7 +147,7 @@ export const PLANS_DATA = {
     name: "PLAN BÁSICO",
     price: 5,
     benefits: [
-      "+1000 Sesiones de Entrenamiento de Fútbol Sala",
+      "+1000 Sesiones de Entrenamiento de Fútbol",
       "Manuales estructurados y optimizados para móvil",
       "Acceso digital inmediato a tu bandeja de correo",
       "Acceso vitalicio sin suscripciones sorpresa",
@@ -163,11 +163,11 @@ export const PLANS_DATA = {
     price: 6.90,
     badge: "OFERTA ESPECIAL",
     benefits: [
-      "+1000 Sesiones de Entrenamiento de Fútbol Sala",
-      "Bono 1: 250 Actividades Sociomotrices de Fútbol Sala (Valorizado en $27)",
-      "Bono 2: 100 Ejercicios de Velocidad y Resistencia para Fútbol Sala ($35)",
-      "Bono 3: 51 Ejercicios de Entrenamiento de Fintas en Fútbol Sala ($19)",
-      "Bono 4: Manual de Entrenamiento de Fútbol Sala ($45)",
+      "+1000 Sesiones de Entrenamiento de Fútbol",
+      "Bono 1: 250 Actividades Sociomotrices de Fútbol (Valorizado en $27)",
+      "Bono 2: 100 Ejercicios de Velocidad y Resistencia para Fútbol ($35)",
+      "Bono 3: 51 Ejercicios de Entrenamiento de Fintas en Fútbol ($19)",
+      "Bono 4: Manual de Entrenamiento de Fútbol ($45)",
       "Bono 5: Nociones Prácticas sobre Preparación Física, Táctica y Técnica ($29)",
       "Acceso prioritario 24/7 a soporte técnico premium",
       "Acceso vitalicio de por vida a la bóveda VIP de recursos",
@@ -199,7 +199,7 @@ export const EXAMPLE_EXERCISES_DATA: ExampleExercise[] = [
     title: "Juego Reducido de Superioridad 3v2 + Arquero en Zona de Finalización",
     phase: "2. Juego Reducido (SSC)",
     description: "Espacio controlado para potenciar la toma de decisiones en ataque rápido, aprovechando el espacio libre e incentivando la cobertura defensiva rápida.",
-    setup: "Media cancha de fútbol sala. 3 atacantes se aproximan desde la línea central contra 2 defensores activos en zona de penalización.",
+    setup: "Media cancha de fútbol. 3 atacantes se aproximan desde la línea central contra 2 defensores activos en zona de penalización.",
     instructions: "El juego inicia con pase del arquero a los atacantes. Los atacantes tienen un máximo de 8 segundos para disparar al arco. Si los defensores roban, buscan anotar cruzando la línea media conduciendo el balón.",
     coachingPoints: [
       "Crear amplitud máxima para estirar los dos bloques defensivos.",
@@ -213,7 +213,7 @@ export const EXAMPLE_EXERCISES_DATA: ExampleExercise[] = [
     title: "Salida de Presión Con Bloqueo y Rotación 3-1 en Rombo",
     phase: "3. Tácticas Ofensivas y Defensivas",
     description: "Dinámica táctica para eludir la marca de presión alta individual del rival mediante pivoteo y rotación continua.",
-    setup: "Cancha completa. Dos equipos posicionados en sistema 3-1 clásico de fútbol sala.",
+    setup: "Cancha completa. Dos equipos posicionados en sistema 3-1 clásico de fútbol.",
     instructions: "El cierre conduce, pasa al ala derecho, corre a bloquear la marca del ala izquierdo. El ala izquierdo rota hacia el centro para recibir del ala derecho. El ala derecho descarga rápido con el pívot, quien aguanta el esférico para la llegada del rotado.",
     coachingPoints: [
       "Precisión quirúrgica en la fuerza del pase a los pies del pívot.",
@@ -291,7 +291,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
 export const FAQ_DATA: FAQItem[] = [
   {
     id: "faq-1",
-    question: "¿Este material de sesiones de fútbol sala es 100% digital?",
+    question: "¿Este material de sesiones de fútbol es 100% digital?",
     answer: "¡Sí, claro! El acceso es inmediato después de la compra. No tienes que pagar gastos de envío ni esperar semanas a que te llegue un libro físico a tu casa. Puedes descargar todas las sesiones y los extras en formato digital en segundos."
   },
   {

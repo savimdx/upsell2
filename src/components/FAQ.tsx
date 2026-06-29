@@ -29,7 +29,7 @@ export default function FAQ() {
             Preguntas Frecuentes
           </h2>
           <p className="mt-4 text-base text-slate-600">
-            Todo lo que necesitas saber sobre el material digital del pack para entrenadores de fútbol sala.
+            Todo lo que necesitas saber sobre el material digital del pack para entrenadores de fútbol.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function FAQ() {
               ¿Tienes más dudas? Ponte en contacto con nuestro soporte en:
             </p>
             <span className="text-sm sm:text-base font-bold text-slate-700 mt-1 block">
-              contacto@entrenamientodefutbolsala.com
+              contacto@entrenamientodefutbol.com
             </span>
           </div>
         </div>

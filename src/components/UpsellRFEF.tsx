@@ -208,7 +208,7 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
             <div className="relative group cursor-pointer overflow-hidden rounded-2xl bg-slate-950/50 p-2 border border-slate-800/60 shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
               <img 
                 src="https://i.ibb.co/nHLxYF9/Chat-GPT-Image-25-de-jun-de-2026-12-56-09.png" 
-                alt="Biblioteca Profesional de Entrenamientos de Fútbol Sala Mockup" 
+                alt="Biblioteca Profesional de Entrenamientos de Fútbol Mockup" 
                 className="max-w-full h-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.03]"
                 referrerPolicy="no-referrer"
               />

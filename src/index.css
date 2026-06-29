@@ -4,6 +4,30 @@
 @theme {
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-orange-50: #fcfdf2;
+  --color-orange-100: #f7fad9;
+  --color-orange-200: #eef5b3;
+  --color-orange-300: #e1ee83;
+  --color-orange-400: #cde24d;
+  --color-orange-500: #a5bd00;
+  --color-orange-600: #809600;
+  --color-orange-700: #5d7000;
+  --color-orange-800: #414f03;
+  --color-orange-900: #293306;
+  --color-orange-950: #141b01;
+
+  --color-amber-50: #fcfdf2;
+  --color-amber-100: #f7fad9;
+  --color-amber-200: #eef5b3;
+  --color-amber-300: #e1ee83;
+  --color-amber-400: #cde24d;
+  --color-amber-500: #a5bd00;
+  --color-amber-600: #809600;
+  --color-amber-700: #5d7000;
+  --color-amber-800: #414f03;
+  --color-amber-900: #293306;
+  --color-amber-950: #141b01;
 }
 
 /* Custom globally useful micro-reset */
