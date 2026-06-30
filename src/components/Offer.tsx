@@ -18,6 +18,12 @@ export default function Offer({ onPurchase }: OfferProps) {
       });
     }, 1000);
 
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
+  useEffect(() => {
     // Dynamically load Hotmart checkout script
     const scriptId = 'hotmart-checkout-script';
     let script = document.getElementById(scriptId) as HTMLScriptElement;
@@ -45,10 +51,6 @@ export default function Offer({ onPurchase }: OfferProps) {
       // If script is already present, attempt initialization immediately or on load
       initWidget();
     }
-
-    return () => {
-      clearInterval(timer);
-    };
   }, []);
 
   const formatTime = (seconds: number) => {
@@ -116,9 +118,9 @@ export default function Offer({ onPurchase }: OfferProps) {
             </p>
           </div>
 
-          {/* CTA Button */}
-          <div className="max-w-md mx-auto pt-4">
-            <div id="hotmart-sales-funnel" className="min-h-[100px] w-full flex items-center justify-center"></div>
+          {/* Hotmart Sales Funnel Widget */}
+          <div className="max-w-md mx-auto pt-2">
+            <div id="hotmart-sales-funnel" className="min-h-[150px] w-full flex items-center justify-center"></div>
           </div>
 
           {/* Trust Seals */}
