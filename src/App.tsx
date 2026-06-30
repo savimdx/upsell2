@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './components/Hero';
-import ProductSamples from './components/ProductSamples';
 import WhyChoose from './components/WhyChoose';
 import Offer from './components/Offer';
 import SalesNotification from './components/SalesNotification';
@@ -127,9 +126,6 @@ export default function App() {
 
           {/* 4. BENEFICIOS */}
           <WhyChoose />
-
-          {/* 3. MUESTRA DEL PRODUCTO (MUY IMPORTANTE) */}
-          <ProductSamples onCTA={handleScrollToOffer} />
 
           {/* 6. OFERTA FINAL */}
           <Offer onPurchase={handleOpenCheckout} />

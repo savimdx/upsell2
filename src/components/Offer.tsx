@@ -90,20 +90,7 @@ export default function Offer({ onPurchase }: OfferProps) {
             <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto">
               Empieza a organizar tus entrenamientos como un profesional desde hoy mismo.
             </p>
-            <a 
-              href="https://ibb.co/QFym4qLy" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              referrerPolicy="no-referrer"
-              className="block max-w-[280px] sm:max-w-[320px] mx-auto my-3"
-            >
-              <img 
-                src="https://i.ibb.co/cc4Tjp04/Chat-GPT-Image-26-de-jun-de-2026-11-17-15.png" 
-                alt="Garantía" 
-                referrerPolicy="no-referrer"
-                className="w-full h-auto mx-auto object-contain rounded-lg"
-              />
-            </a>
+
           </div>
 
           {/* Pricing area */}
