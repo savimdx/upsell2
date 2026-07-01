@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import WhyChoose from './components/WhyChoose';
 import Offer from './components/Offer';
 import SalesNotification from './components/SalesNotification';
-import { LocalPrice } from './contexts/CurrencyContext';
 import { CheckCircle2, Download, Sparkles, CreditCard, Shield, Mail, User, Wallet, Loader2 } from 'lucide-react';
 
 export default function App() {
@@ -298,7 +297,7 @@ export default function App() {
               {paymentMethod === 'paypal' && (
                 <div className="p-4 bg-slate-950/60 border border-slate-850 rounded-2xl text-center space-y-2 animate-fadeIn">
                   <p className="text-xs text-slate-300">
-                    Serás redirigido de forma segura a PayPal para autorizar el cargo único de <strong className="text-white"><LocalPrice usd={4.90} /></strong>.
+                    Serás redirigido de forma segura a PayPal para autorizar el cargo único de <strong className="text-white">$4.90 USD</strong>.
                   </p>
                   <span className="text-[10px] font-mono font-bold text-slate-500">PROCESAMIENTO INSTANTÁNEO</span>
                 </div>
@@ -307,7 +306,7 @@ export default function App() {
               {paymentMethod === 'transfer' && (
                 <div className="p-4 bg-slate-950/60 border border-slate-850 rounded-2xl text-center space-y-2 animate-fadeIn">
                   <p className="text-xs text-slate-300">
-                    Se generará un código QR PIX único o datos de transferencia por un valor de <strong className="text-white"><LocalPrice usd={4.90} /></strong>.
+                    Se generará un código QR PIX único o datos de transferencia por un valor de <strong className="text-white">$4.90 USD</strong>.
                   </p>
                   <span className="text-[10px] font-mono font-bold text-emerald-400">DESCARGA AUTOMÁTICA AL INSTANTE</span>
                 </div>
@@ -316,7 +315,7 @@ export default function App() {
               {/* Order total info box */}
               <div className="bg-slate-950 p-3 rounded-xl border border-slate-850 flex justify-between items-center text-xs">
                 <span className="text-slate-400 font-semibold">Total a debitar:</span>
-                <span className="font-mono text-base font-black text-orange-400 animate-pulse"><LocalPrice usd={4.90} /></span>
+                <span className="font-mono text-base font-black text-orange-400 animate-pulse">$4.90 USD</span>
               </div>
 
               {/* Action Buttons */}
@@ -392,14 +391,14 @@ export default function App() {
                     <span className="text-emerald-500">✓</span>
                     <span>24 Plantillas de Entrenamiento de Fútbol (Pack Completo)</span>
                   </div>
-                  <span className="font-bold font-mono text-slate-400"><LocalPrice usd={4.90} /></span>
+                  <span className="font-bold font-mono text-slate-400">$4.90 USD</span>
                 </li>
               </ul>
 
               <div className="border-t border-slate-850 pt-3 flex justify-between items-center font-bold text-white text-sm sm:text-base">
                 <span>Total Cargado:</span>
                 <span className="font-mono text-orange-400 text-lg sm:text-xl">
-                  <LocalPrice usd={4.90} />
+                  $4.90 USD
                 </span>
               </div>
             </div>

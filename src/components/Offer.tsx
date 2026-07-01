@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Clock } from 'lucide-react';
-import { LocalPrice } from '../contexts/CurrencyContext';
 
 interface OfferProps {
   onPurchase: () => void;
@@ -99,15 +98,18 @@ export default function Offer({ onPurchase }: OfferProps) {
           {/* Pricing area */}
           <div className="py-6 border-y border-slate-800 max-w-md mx-auto space-y-3">
             <div className="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-450">
-              <span>Valor Oficial: <span className="line-through text-red-500 font-extrabold"><LocalPrice usd={47.00} /></span></span>
+              <span>Valor Oficial: <span className="line-through text-red-500 font-extrabold">$47.00 USD</span></span>
               <span className="bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded font-mono font-bold text-[9px] uppercase tracking-wider">
-                Ahorras <LocalPrice usd={42.10} />
+                Ahorras $42.10
               </span>
             </div>
 
             <div className="flex items-baseline justify-center">
               <span className="text-5xl sm:text-6xl font-black text-orange-400 tracking-tight animate-pulse">
-                <LocalPrice usd={4.90} />
+                $4.90
+              </span>
+              <span className="text-lg font-bold text-orange-500 ml-1.5 font-mono">
+                USD
               </span>
             </div>
 
