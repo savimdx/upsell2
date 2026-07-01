@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { LocalPrice } from '../contexts/CurrencyContext';
 import { 
   ShieldCheck, 
   BookOpen, 
@@ -584,19 +585,16 @@ export default function UpsellRFEF({ onAccept, onDecline }: UpsellRFEFProps) {
             
             {/* Price anchors */}
             <div className="flex items-center justify-center gap-4 text-xs sm:text-sm font-semibold text-slate-400">
-              <span className="text-slate-400 flex items-center gap-1">Valor Oficial: <span className="line-through text-red-400 font-extrabold">$97.00 USD</span></span>
+              <span className="text-slate-400 flex items-center gap-1">Valor Oficial: <span className="line-through text-red-400 font-extrabold"><LocalPrice usd={97.00} /></span></span>
               <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded font-mono font-bold uppercase text-[10px] tracking-wider animate-pulse">
-                Ahorras $92.10
+                Ahorras <LocalPrice usd={92.10} />
               </span>
             </div>
 
             {/* Price Callout */}
             <div className="flex items-baseline justify-center">
               <span className="text-6xl sm:text-7xl font-black text-orange-400 tracking-tight drop-shadow-sm animate-pulse">
-                $4.90
-              </span>
-              <span className="text-xl font-bold text-orange-500 ml-1.5 font-mono">
-                USD
+                <LocalPrice usd={4.90} />
               </span>
             </div>
 
